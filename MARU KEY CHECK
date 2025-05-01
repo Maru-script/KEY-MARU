@@ -1,0 +1,12 @@
+local expirationDate = os.time({year = 2025, month = 5, day = 2})
+local currentTime = os.time()
+
+if currentTime > expirationDate then
+    game.Players.LocalPlayer:Kick("Script has expired.")
+    return
+end
+
+local correctKey = "MARUCUAYTBSCRIPTCOPY1"
+local userKey = "MARUCUAYTBSCRIPTCOPY1"
+
+if userKey == correctKey then
